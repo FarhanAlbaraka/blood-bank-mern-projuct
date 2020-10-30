@@ -1,0 +1,40 @@
+.home {
+    height: 500px;
+    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+   
+}
+
+.home .home-information {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.home .home-information .home-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #f70404;
+}
+
+.home .home-information .home-info {
+    font-size: 35px;
+    color: #ee6618;
+    margin-bottom: 20px;
+}
+
+.home .home-information .home-desc {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(92, 11, 11);
+    margin-bottom: 20px
+}
+
+.home .home-information .home-desc span {
+    color: rgb(95, 10, 10)
+}
+
